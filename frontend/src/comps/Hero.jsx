@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { useNavigate, useLocation } from "react-router-dom"; // Import navigation hooks
 import TypingTerminal from "./TypingTerminal";
 
+import resumePDF from "../assets/Vishwas_Resume.pdf";
+
 const MotionBox = motion(Box);
 const MotionText = motion(Text);
 const MotionButton = motion(Button);
@@ -13,9 +15,9 @@ const Hero = () => {
 
   // Function to handle resume download
   const handleDownloadResume = () => {
-    const resumeUrl = "/Vishwas_Resume.pdf"; // Ensure file is in 'public' folder
+    // const resumeUrl = "./assets/Vishwas_Resume.pdf"; // Ensure file is in 'public' folder
     const link = document.createElement("a");
-    link.href = resumeUrl;
+    link.href = resumePDF;
     link.download = "Vishwas_Resume.pdf";
     document.body.appendChild(link);
     link.click();

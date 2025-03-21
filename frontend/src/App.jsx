@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./comps/Navbar";
 import Projects from "./comps/Projects";
 import SkillsSection from "./comps/SkillsSection";
@@ -30,13 +30,13 @@ const Home = () => {
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Navbar /> {/* Fixed Navbar */}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/resume" element={<ResumePage />} /> */}
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
 
