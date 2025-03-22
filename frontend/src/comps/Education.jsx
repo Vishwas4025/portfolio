@@ -9,19 +9,19 @@ const educationData = [
     date: "2022 - 2026",
     degree: "Bachelor of Engineering in Computer Science (AI/ML)",
     institution: "Neil Gogte Institute of Technology",
-    description: "Studying core CS subjects along with AI/ML, deep learning, and web development."
+    description: "Studying core CS subjects along with AI/ML, deep learning, and web development. (CGPA : 9.15)"
   },
   {
     date: "2020 - 2022",
     degree: "Intermediate Education",
     institution: "Sri Chaitanya Junior College",
-    description: "Completed Intermediate education with a focus on Mathematics, Physics, and Chemistry."
+    description: "Completed Intermediate education with a focus on Mathematics, Physics, and Chemistry. (93.2%)"
   },
   {
     date: "2020",
     degree: "Secondary Education",
     institution: "Sri Chaitanya Techno School",
-    description: "Completed Secondary School Examination at Sri Chaitanya School, Hyderabad, in 2020."
+    description: "Completed Secondary School Examination at Sri Chaitanya School, Hyderabad, in 2020. (CGPA : 10.0)"
   }
 ];
 

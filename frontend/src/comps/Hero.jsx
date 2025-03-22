@@ -85,8 +85,8 @@ const Hero = () => {
                 mt={6}
             >
                 Dynamic and proactive Computer Science Engineering (AIML) student currently in 3rd year with a strong background
-                in Programming, Full Stack Development, and a solid understanding of Data Structures, Machine Learning, Deep
-                Learning, and Software Development Life Cycle (SDLC).
+                in Problem solving, Date Structures and Algorithms, Full Stack Development, Data Science, Machine Learning, Deep
+                Learning and Software Development Life Cycle (SDLC).
             </MotionText>
             <MotionText
                 initial={{ opacity: 0, x: 100 }}
@@ -96,9 +96,9 @@ const Hero = () => {
                 color="gray.200"
                 mt={6}
             >
-                Eager to apply analytical skills and problem-solving abilities
-                to real-world software engineering challenges. Actively seeking internships or full-time roles in Full Stack Development,
-                AI, or Software Development with a passion for innovation in technology.
+                Eager to apply analytical skills and problem solving abilities
+                to real world software engineering challenges. Actively seeking internships or full time roles in Full Stack Development,
+                Data Science, AI or Software Development with a passion for innovation in technology.
             </MotionText>
 
             <Stack

@@ -4,10 +4,14 @@ import { motion } from "framer-motion";
 
 const TypingTerminal = () => {
   const fullText = [
-    "> Hello, I'm Vishwas",
-    "> Frontend Developer | AI Enthusiast",
-    "> Crafting Code & Pixels 🚀",
-  ];
+    "> println(",
+    ">    Hello, I'm Vishwas!",
+    ">    Full Stack Developer &",
+    ">    AI Enthusiast",
+    ">    Turning Ideas into Code",
+    "> );"
+];
+
 
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);

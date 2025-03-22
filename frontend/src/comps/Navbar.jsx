@@ -86,10 +86,10 @@ const Navbar = () => {
               <ChakraLink
                 key={item.id}
                 onClick={() => handleScroll(item.id)}
-                color="white"
+                color={activeSection === item.id ? "green.300" : "white"}
                 cursor="pointer"
                 fontWeight={activeSection === item.id ? "bold" : "normal"}
-                borderBottom={activeSection === item.id ? "2px solid white" : "none"}
+                borderBottom={activeSection === item.id ? "2px solid rgb(128, 219, 135)" : "none"}
                 pb={1}
                 _hover={{ color: "gray.300" }}
               >
@@ -104,8 +104,10 @@ const Navbar = () => {
             display={{ base: "block", md: "none" }}
             onClick={openMenu} 
             bg="transparent"
-            color="white"
-            _hover={{ bg: "gray.700" }}
+            // color="green.300"
+            color={"white"}
+            _hover={{ bg: "gray.800" }}
+            fontSize={"xl"}
           >
             ☰ 
           </IconButton>
@@ -134,7 +136,7 @@ const Navbar = () => {
             left="0"
             width="250px"
             height="100vh"
-            bg="rgba(0, 0, 0, 0.9)"
+            bg="rgba(0, 0, 0, 0.95)"
             zIndex="1400"
             p={4}
             shadow="xl"
@@ -148,6 +150,7 @@ const Navbar = () => {
                 bg="transparent"
                 color="white"
                 _hover={{ bg: "whiteAlpha.200" }}
+                fontSize={"xl"}
               >
                 ✖
               </Button>
@@ -165,7 +168,7 @@ const Navbar = () => {
                   p={2}
                   borderRadius="md"
                   bg={activeSection === item.id ? "whiteAlpha.200" : "transparent"}
-                  color="whiteAlpha.800"
+                  color={activeSection === item.id ? "green.300" : "whiteAlpha.800"}
                   display="block"
                 >
                   {item.name}

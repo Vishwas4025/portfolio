@@ -4,31 +4,31 @@ import image3 from "./assets/images/Screenshot (23).png";
 import image4 from "./assets/images/Screenshot (11).png";
 
 export const ProjectsData = [
-  {
-    image: image1,
-    heading: "Automated Student Counting",
-    text: " A Tranfer learning ResNet50 model for real time detection of students in a classroom.",
-    techStack: ["NLP", "ML", "React", "Node.js"],
-  },
-  {
-    image: image2,
-    heading: "Chef Guru",
-    text: "Developed a Chatbot by finetuning Llama 2 LLM that generates meal ideas based on available ingredients.",
-    techStack: ["NLP", "ML", "React", "Node.js"],
-  },
-  {
-    image: image3,
-    heading: "Fit Track",
-    text: " Created a web application using MERN Stack to track daily exercise repetitions.",
-    techStack: ["NLP", "ML", "React", "Node.js"],
-  },
-  {
-    image: image4,
-    heading: "DineInsight",
-    text: "A Sentiment analysis model for restaurant reviews using Machine Learning model",
-    techStack: ["NLP", "ML", "React", "Node.js", "NLP", "ML", "React", "Node.js"],
-  },
-];
+    {
+      image: image1,
+      heading: "Automated Student Counting",
+      text: " A Tranfer learning ResNet50 model for real time detection of students in a classroom.",
+      techStack: ["DL", "ResNet50", "React", "Flask"],
+    },
+    {
+      image: image2,
+      heading: "Chef Guru",
+      text: "Developed a Chatbot by finetuning Llama 2 LLM that generates meal ideas based on available ingredients.",
+      techStack: ["LLM", "React", "Node.js", "MongoDB", "MERN"],
+    },
+    {
+      image: image3,
+      heading: "Fit Track",
+      text: " Created a web application using MERN Stack to track daily exercise repetitions.",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "MERN"],
+    },
+    {
+      image: image4,
+      heading: "DineInsight",
+      text: "A Sentiment analysis model for restaurant reviews using Machine Learning model",
+      techStack: ["NLP", "ML", "React", "Flask"],
+    },
+  ];
 
 
 
